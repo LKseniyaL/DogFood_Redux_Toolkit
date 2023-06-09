@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    max-width: 1000px;
+    margin: 40px auto;
+    grid-template-columns: 60px 1fr 90px auto;
+    grid-auto-rows: 60px;
+    align-items: center;
+    position: relative;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.counter{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 30px;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+.counter button{
+    border: none;
+    background-color: transparent;
+}
+.price_block{
+    color: #1A1A1A;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: 800;
+}
+.remove_product_item{
+    color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: -40px;
+    top: 0px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,36 @@
+.main{
+    margin: 40px auto;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    padding-left: 20px;
+    gap: 10px;
+    flex-direction: column;
+}
+.decription{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+.quantity{
+    color: #7B8E98;
+}
+.price{
+    color: #1A1A1A;
+    font-size: 20px;
+    font-weight: 800;
+}
+.btn{
+    background-color: #FFE44D;
+    padding: 10px 18px;
+    margin-top: 20px;
+    border-radius: 55px;
+    width: 116px;
+    height: 40px;
+    border: none;
+}
